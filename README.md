@@ -43,7 +43,3 @@ java -cp out Task1
 | `task-03-dst` | Gap и overlap в Europe/Berlin | `getValidOffsets`, `withEarlierOffsetAtOverlap`/`withLaterOffsetAtOverlap` |
 | `task-04-analytics` | Задержки ответов сервиса | свертки `Duration`, среднее с округлением вниз, `Optional`, группировка по дню недели, `DateTimeFormatter` |
 | `task-05-scheduler` | Расписание встреч распределённой команды | `Clock.fixed`, расписание по `LocalDate` (`plusWeeks`), локальное время момента в разных зонах |
-
-Вы в ветке `master` — скелеты с `TODO`, контроль печатает `FAIL` до
-реализации методов. Решения — в ветке `solutions`; они также
-разбираются на занятии.
